@@ -47,13 +47,17 @@ Kubernetes relies heavily on networking, and understanding key networking concep
 
 ✅TCP/IP Networking:
 The basics of the OSI and TCP/IP models, layers of networking, and how data is transmitted across networks
+
 ✅DNS (Domain Name System):
 How DNS works, how it resolves domain names to IP addresses, and its role in service discovery
+
 ✅IP Addresses and Subnets:
 IPv4 and IPv6 addresses, subnet masks, CIDR notation, and how they are used in networking
+
 ✅Ports and Firewalls:
 How ports are used to establish network connections, understanding common ports for HTTP, HTTPS, SSH, etc.
 Firewall management, using ufw or iptables to manage network traffic
+
 ✅Routing and Load Balancing:
 Basic understanding of routing protocols and how load balancing works across multiple nodes (round-robin, least connections, etc.)
 
@@ -72,24 +76,26 @@ Basic log management and monitoring of system health
 **More Topics:**
 
 ✅ Networking Concepts
+
 **Network Fundamentals**
---- OSI Model layers
+```--- OSI Model layers
 --- TCP/IP protocol suite
 --- IP addressing
 --- Subnetting
 --- Network routing
 --- DNS resolution
 --- Port forwarding
---- Load balancing principles
+--- Load balancing principles```
 
 ✅ **Advanced Networking**
-
+```
 --- Network namespaces
 --- Virtual networking
 --- Container networking models
 --- Service discovery
 --- Ingress/Egress traffic
 --- Network policies
+```
 
 ## Containerization (Docker)
 
@@ -98,7 +104,7 @@ Basic log management and monitoring of system health
 ✅  Managing Docker containers: docker run, docker ps, docker exec, docker logs
 ✅  Creating Docker images, writing Dockerfiles
 Containers are the foundation of Kubernetes. If you're new to containers, understanding Docker is critical.
-
+```
 🔹Containers vs Virtual Machines:
 Differences between containers and VMs, why containers are lightweight and portable.
 🔹Docker Basics:
@@ -119,6 +125,7 @@ Linking containers and service discovery
 🔹Volumes:
 Persisting data across container restarts using Docker volumes
 Using docker volume commands to manage data persistence
+```
 
  **Docker points**
 Docker Proficiency
