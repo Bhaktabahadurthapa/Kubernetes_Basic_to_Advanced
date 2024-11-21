@@ -99,9 +99,10 @@ Basic log management and monitoring of system health
 --- Ingress/Egress traffic
 --- Network policies
 ```
-```
+
 ## Containerization (Docker)
 
+```
 ✅  What containers are and how they differ from virtual machines
 ✅  How Docker works: images, containers, Dockerfile, volumes, and networks
 ✅  Managing Docker containers: docker run, docker ps, docker exec, docker logs
