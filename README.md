@@ -1,7 +1,9 @@
 # Kubernetes_Basic_to_Advanced
-**1. Prerequisite Knowledge**
 
-**Operating System & Linux Fundamentals**
+
+## Prerequisite Knowledge
+
+## Operating System & Linux Fundamentals
 ```✅ **Linux Basics**
 File system, permissions, and process management
 Networking concepts like IP, DNS, Ports
@@ -39,7 +41,7 @@ Package Management:
 Installing packages using package managers like apt (Ubuntu/Debian), yum (CentOS/RHEL), dnf (Fedora)
 Understanding package installation, updates, and removals
 ```
-**Basic Networking Concepts**
+## Basic Networking Concepts
 ```
 Kubernetes relies heavily on networking, and understanding key networking concepts is crucial to managing clusters effectively.
 
@@ -91,7 +93,7 @@ Basic log management and monitoring of system health
 --- Ingress/Egress traffic
 --- Network policies
 ```
-**Containerization (Docker)**
+## Containerization (Docker)
 ```
 ✅  What containers are and how they differ from virtual machines
 ✅  How Docker works: images, containers, Dockerfile, volumes, and networks
