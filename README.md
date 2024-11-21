@@ -41,6 +41,22 @@ Understanding package installation, updates, and removals
 ```
 **Basic Networking Concepts**
 ```
+Kubernetes relies heavily on networking, and understanding key networking concepts is crucial to managing clusters effectively.
+
+✅TCP/IP Networking:
+The basics of the OSI and TCP/IP models, layers of networking, and how data is transmitted across networks
+✅DNS (Domain Name System):
+How DNS works, how it resolves domain names to IP addresses, and its role in service discovery
+✅IP Addresses and Subnets:
+IPv4 and IPv6 addresses, subnet masks, CIDR notation, and how they are used in networking
+✅Ports and Firewalls:
+How ports are used to establish network connections, understanding common ports for HTTP, HTTPS, SSH, etc.
+Firewall management, using ufw or iptables to manage network traffic
+✅Routing and Load Balancing:
+Basic understanding of routing protocols and how load balancing works across multiple nodes (round-robin, least connections, etc.)
+```
+
+```
 TCP/IP stack, DNS, Load Balancing, Proxying
 Ports, subnets, and network isolation
 Understanding NAT, IP address allocation, and DNS resolution in a containerized environment
@@ -81,6 +97,31 @@ Basic log management and monitoring of system health
 ✅  How Docker works: images, containers, Dockerfile, volumes, and networks
 ✅  Managing Docker containers: docker run, docker ps, docker exec, docker logs
 ✅  Creating Docker images, writing Dockerfiles
+Containers are the foundation of Kubernetes. If you're new to containers, understanding Docker is critical.
+```
+
+```
+🔹Containers vs Virtual Machines:
+Differences between containers and VMs, why containers are lightweight and portable.
+🔹Docker Basics:
+What Docker is and how it works
+🔹Basic Docker commands:
+docker run, docker ps, docker exec, docker stop, docker rm
+docker build, docker images, docker rmi
+docker logs, docker stats
+🔹Dockerfiles:
+Writing a Dockerfile to create a custom container image
+Understanding FROM, RUN, CMD, COPY, and EXPOSE instructions
+🔹Docker Compose:
+Introduction to docker-compose for defining and running multi-container applications
+Basic docker-compose.yml setup and usage
+🔹Docker Networking:
+Understanding container networking: bridge, host, and overlay networks
+Linking containers and service discovery
+🔹Volumes:
+Persisting data across container restarts using Docker volumes
+Using docker volume commands to manage data persistence
+```
 
 
 
