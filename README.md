@@ -2,7 +2,7 @@
 **1. Prerequisite Knowledge**
 
 **Operating System & Linux Fundamentals**
-```Linux Basics
+```✅ **Linux Basics**
 File system, permissions, and process management
 Networking concepts like IP, DNS, Ports
 Package management (e.g., apt, yum, dnf)
@@ -14,7 +14,7 @@ Shell scripting (Bash/Zsh)
 Package management
 System monitoring
 
-Key Linux Commands
+✅ Key Linux Commands
 ls, cd, pwd
 grep, sed, awk
 systemctl
@@ -23,7 +23,7 @@ chmod, chown
 network configuration
 tar, zip operations
 
-More Details:
+✅ More Details:
 
 File System and Permissions:
 Basic file operations: ls, cd, cp, mv, rm
@@ -45,17 +45,17 @@ TCP/IP stack, DNS, Load Balancing, Proxying
 Ports, subnets, and network isolation
 Understanding NAT, IP address allocation, and DNS resolution in a containerized environment
 
-**Networking:**
+✅ **Networking:**
 Basic networking commands: ping, netstat, ifconfig, ip a, curl
 Understanding IP addresses, subnetting, and routing basics
 
-**Logs and Monitoring**:
+✅ **Logs and Monitoring**:
 Viewing system logs using journalctl, tail -f /var/log/syslog
 Basic log management and monitoring of system health
 
 **More Topics:**
 
-Networking Concepts
+✅ Networking Concepts
 **Network Fundamentals**
 --- OSI Model layers
 --- TCP/IP protocol suite
@@ -66,7 +66,7 @@ Networking Concepts
 --- Port forwarding
 --- Load balancing principles
 
-**Advanced Networking**
+✅ **Advanced Networking**
 
 --- Network namespaces
 --- Virtual networking
@@ -74,7 +74,13 @@ Networking Concepts
 --- Service discovery
 --- Ingress/Egress traffic
 --- Network policies
-
+```
+**Containerization (Docker)**
+```
+✅  What containers are and how they differ from virtual machines
+✅  How Docker works: images, containers, Dockerfile, volumes, and networks
+✅  Managing Docker containers: docker run, docker ps, docker exec, docker logs
+✅  Creating Docker images, writing Dockerfiles
 
 
 
