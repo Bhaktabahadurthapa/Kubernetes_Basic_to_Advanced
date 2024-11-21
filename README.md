@@ -78,14 +78,17 @@ Basic log management and monitoring of system health
 ✅ Networking Concepts
 
 **Network Fundamentals**
-```--- OSI Model layers
+
+```
+--- OSI Model layers
 --- TCP/IP protocol suite
 --- IP addressing
 --- Subnetting
 --- Network routing
 --- DNS resolution
 --- Port forwarding
---- Load balancing principles```
+--- Load balancing principles
+```
 
 ✅ **Advanced Networking**
 ```
@@ -96,7 +99,7 @@ Basic log management and monitoring of system health
 --- Ingress/Egress traffic
 --- Network policies
 ```
-
+```
 ## Containerization (Docker)
 
 ✅  What containers are and how they differ from virtual machines
@@ -104,6 +107,8 @@ Basic log management and monitoring of system health
 ✅  Managing Docker containers: docker run, docker ps, docker exec, docker logs
 ✅  Creating Docker images, writing Dockerfiles
 Containers are the foundation of Kubernetes. If you're new to containers, understanding Docker is critical.
+```
+
 ```
 🔹Containers vs Virtual Machines:
 Differences between containers and VMs, why containers are lightweight and portable.
@@ -148,15 +153,4 @@ Container security
 Resource isolation
 Port mapping
 Multi-stage builds
-
-
-
-
-
-
-
-
-
-
-
 
