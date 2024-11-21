@@ -44,3 +44,52 @@ Understanding Helm charts and their usage for deploying applications
 Installing, upgrading, and managing Helm releases
 Creating custom Helm charts for managing deployments
 
+**Advanced Kubernetes**
+
+**👉  Kubernetes Security**
+RBAC (Role-Based Access Control) and Service Accounts
+Network policies for securing traffic between pods
+Pod security policies, SecurityContext, and Seccomp profiles
+Secrets management using Kubernetes Secrets or external solutions like HashiCorp Vault
+
+**👉 CI/CD Pipelines with Kubernetes**
+Integration of Kubernetes with Jenkins, GitLab CI, or GitHub Actions
+Automating deployments and scaling with Kubernetes
+Continuous Delivery and GitOps concepts (e.g., ArgoCD, FluxCD)
+Setting up automated rollback and monitoring
+
+**👉  Monitoring and Logging**
+Metrics collection using Prometheus, Grafana, and Alertmanager
+Centralized logging using the EFK stack (Elasticsearch, Fluentd, Kibana) or Loki, Fluentbit, and Grafana
+Setting up health checks and probes (liveness, readiness probes)
+Logging practices with Kubernetes
+
+**👉 Autoscaling**
+Horizontal Pod Autoscaling (HPA) based on CPU/Memory usage
+Cluster Autoscaler for scaling nodes
+Vertical Pod Autoscaling (VPA)
+
+**👉  Kubernetes in Production**
+
+👉  Multi-Cluster Management
+Managing multiple Kubernetes clusters (e.g., Federation, Rancher, etc.)
+Handling deployments across different environments (prod, staging, dev)
+👉  Disaster Recovery and High Availability
+Setting up high availability for master and worker nodes
+Backup and restore strategies for persistent volumes and configurations
+Ensuring cluster fault tolerance and resilience
+👉  Cost Optimization and Scaling
+Cost management with Kubernetes in cloud environments
+Optimizing resource requests and limits for pods
+Understanding cloud pricing models (e.g., EC2, AKS, GKE) and optimizing Kubernetes clusters for efficiency
+
+
+
+
+
+
+
+
+
+
+
