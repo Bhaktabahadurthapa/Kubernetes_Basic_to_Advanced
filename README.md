@@ -14,8 +14,7 @@ Shell scripting (Bash/Zsh)
 Package management
 System monitoring
 
-Key Linux Commands
-
+**Key Linux Commands**
 ls, cd, pwd
 grep, sed, awk
 systemctl
