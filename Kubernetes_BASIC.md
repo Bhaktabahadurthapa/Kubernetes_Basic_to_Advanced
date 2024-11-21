@@ -1,4 +1,4 @@
-**Kubernetes Basics**
+**Kubernetes Basics
 
 **👉 What is Kubernetes?**
 Overview of Kubernetes and why it's used in production environments
@@ -21,7 +21,7 @@ Deploying applications using kubectl apply, kubectl get, kubectl describe
 Scaling applications, rolling updates, and monitoring pod health
 
 
-**Intermediate Kubernetes Concepts**
+**Intermediate Kubernetes Concepts
 
 **👉 Pods and Controllers**
 Pod lifecycle: init containers, multi-container pods
@@ -44,7 +44,7 @@ Understanding Helm charts and their usage for deploying applications
 Installing, upgrading, and managing Helm releases
 Creating custom Helm charts for managing deployments
 
-**Advanced Kubernetes**
+**Advanced Kubernetes
 
 **👉  Kubernetes Security**
 RBAC (Role-Based Access Control) and Service Accounts
@@ -69,7 +69,7 @@ Horizontal Pod Autoscaling (HPA) based on CPU/Memory usage
 Cluster Autoscaler for scaling nodes
 Vertical Pod Autoscaling (VPA)
 
-**👉  Kubernetes in Production**
+**Kubernetes in Production
 
 👉  Multi-Cluster Management
 Managing multiple Kubernetes clusters (e.g., Federation, Rancher, etc.)
