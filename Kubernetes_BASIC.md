@@ -74,10 +74,12 @@ Vertical Pod Autoscaling (VPA)
 👉  Multi-Cluster Management
 Managing multiple Kubernetes clusters (e.g., Federation, Rancher, etc.)
 Handling deployments across different environments (prod, staging, dev)
+
 👉  Disaster Recovery and High Availability
 Setting up high availability for master and worker nodes
 Backup and restore strategies for persistent volumes and configurations
 Ensuring cluster fault tolerance and resilience
+
 👉  Cost Optimization and Scaling
 Cost management with Kubernetes in cloud environments
 Optimizing resource requests and limits for pods
