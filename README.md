@@ -4,7 +4,7 @@
 ## Prerequisite Knowledge
 
 ## Operating System & Linux Fundamentals
-```✅ **Linux Basics**
+✅ **Linux Basics**
 File system, permissions, and process management
 Networking concepts like IP, DNS, Ports
 Package management (e.g., apt, yum, dnf)
@@ -40,7 +40,7 @@ Process management: kill, killall, bg, fg, jobs
 Package Management:
 Installing packages using package managers like apt (Ubuntu/Debian), yum (CentOS/RHEL), dnf (Fedora)
 Understanding package installation, updates, and removals
-```
+
 ## Basic Networking Concepts
 ```
 Kubernetes relies heavily on networking, and understanding key networking concepts is crucial to managing clusters effectively.
