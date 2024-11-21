@@ -122,6 +122,28 @@ Linking containers and service discovery
 Persisting data across container restarts using Docker volumes
 Using docker volume commands to manage data persistence
 ```
+``` **Docker points**
+Docker Proficiency
+
+Container architecture
+Docker commands
+Dockerfile creation
+Image building
+Container lifecycle
+Volume management
+Network configurations
+Docker Compose
+
+Container Concepts
+
+Containerization vs. virtualization
+Container runtime
+Image layers
+Container security
+Resource isolation
+Port mapping
+Multi-stage builds
+```
 
 
 
