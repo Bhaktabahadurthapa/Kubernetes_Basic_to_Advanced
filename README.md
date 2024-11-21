@@ -14,7 +14,7 @@ Shell scripting (Bash/Zsh)
 Package management
 System monitoring
 
-**Key Linux Commands**
+Key Linux Commands
 ls, cd, pwd
 grep, sed, awk
 systemctl
@@ -22,5 +22,49 @@ top, ps
 chmod, chown
 network configuration
 tar, zip operations
+
+More Details:
+
+File System and Permissions:
+Basic file operations: ls, cd, cp, mv, rm
+
+File and directory permissions: chmod, chown, ls -l
+Understanding the Linux file system structure (/etc, /var, /home, /usr, etc.)
+
+Processes:
+Viewing running processes with ps, top, htop
+Process management: kill, killall, bg, fg, jobs
+
+Package Management:
+Installing packages using package managers like apt (Ubuntu/Debian), yum (CentOS/RHEL), dnf (Fedora)
+Understanding package installation, updates, and removals
 ```
+**Basic Networking Concepts**
+```
+TCP/IP stack, DNS, Load Balancing, Proxying
+Ports, subnets, and network isolation
+Understanding NAT, IP address allocation, and DNS resolution in a containerized environment
+
+**Networking:**
+Basic networking commands: ping, netstat, ifconfig, ip a, curl
+Understanding IP addresses, subnetting, and routing basics
+
+**Logs and Monitoring**:
+Viewing system logs using journalctl, tail -f /var/log/syslog
+Basic log management and monitoring of system health
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
