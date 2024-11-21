@@ -42,7 +42,7 @@ Installing packages using package managers like apt (Ubuntu/Debian), yum (CentOS
 Understanding package installation, updates, and removals
 
 ## Basic Networking Concepts
-```
+
 Kubernetes relies heavily on networking, and understanding key networking concepts is crucial to managing clusters effectively.
 
 ✅TCP/IP Networking:
@@ -56,9 +56,7 @@ How ports are used to establish network connections, understanding common ports 
 Firewall management, using ufw or iptables to manage network traffic
 ✅Routing and Load Balancing:
 Basic understanding of routing protocols and how load balancing works across multiple nodes (round-robin, least connections, etc.)
-```
 
-```
 TCP/IP stack, DNS, Load Balancing, Proxying
 Ports, subnets, and network isolation
 Understanding NAT, IP address allocation, and DNS resolution in a containerized environment
@@ -92,17 +90,15 @@ Basic log management and monitoring of system health
 --- Service discovery
 --- Ingress/Egress traffic
 --- Network policies
-```
+
 ## Containerization (Docker)
-```
+
 ✅  What containers are and how they differ from virtual machines
 ✅  How Docker works: images, containers, Dockerfile, volumes, and networks
 ✅  Managing Docker containers: docker run, docker ps, docker exec, docker logs
 ✅  Creating Docker images, writing Dockerfiles
 Containers are the foundation of Kubernetes. If you're new to containers, understanding Docker is critical.
-```
 
-```
 🔹Containers vs Virtual Machines:
 Differences between containers and VMs, why containers are lightweight and portable.
 🔹Docker Basics:
@@ -123,8 +119,8 @@ Linking containers and service discovery
 🔹Volumes:
 Persisting data across container restarts using Docker volumes
 Using docker volume commands to manage data persistence
-```
-``` **Docker points**
+
+ **Docker points**
 Docker Proficiency
 
 Container architecture
@@ -145,10 +141,6 @@ Container security
 Resource isolation
 Port mapping
 Multi-stage builds
-```
-
-
-
 
 
 
