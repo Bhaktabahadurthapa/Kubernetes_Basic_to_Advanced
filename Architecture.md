@@ -16,7 +16,7 @@ Container Runtime: Software responsible for running containers (like Docker)
 Kube-proxy: Network proxy implementing Kubernetes networking services
 Pods: Smallest deployable units holding one or more containers
 ```
-
+https://kubernetes.io/docs/concepts/architecture/ 
 https://github.com/LondheShubham153/kubestarter/blob/main/kubernetes_architecture.md 
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/3b7461f3-aad1-4f5e-9f24-8657df61e5d5">
 
