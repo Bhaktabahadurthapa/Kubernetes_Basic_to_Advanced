@@ -51,7 +51,6 @@ Hardware/software/policy constraints
 Affinity/anti-affinity specifications
 Data locality
 
-
 d) Controller Manager
 
 Runs controller processes
@@ -79,8 +78,6 @@ Common runtimes include:
 containerd
 CRI-O
 Docker (legacy)
-
-
 
 c) Kube-proxy
 
