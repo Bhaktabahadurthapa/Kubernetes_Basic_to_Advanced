@@ -2,7 +2,7 @@
 Kubernetes follows a master-worker (control plane and data plane) architecture with these main components:
 
 ***Control Plane Components (Master Node)*** 
-``
+```
 API Server: The front-end interface for the Kubernetes control plane
 etcd: Distributed key-value store for cluster data
 Scheduler: Places containers based on resource requirements
