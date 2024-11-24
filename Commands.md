@@ -190,11 +190,69 @@ kubectl delete secret <name>
 ```
 ## 7. Storage Operations
 
+**Persistent Volumes (PV)**
 
+  ```
+# List PVs
+kubectl get pv
 
+# Create PV
+kubectl create -f pv.yaml
 
+# Delete PV
+kubectl delete pv <name>
 
+# Describe PV
+kubectl describe pv <name>
+```
+**Persistent Volume Claims (PVC)**
+```
+# List PVCs
+kubectl get pvc
 
+# Create PVC
+kubectl create -f pvc.yaml
+
+# Delete PVC
+kubectl delete pvc <name>
+
+# Describe PVC
+kubectl describe pvc <name>
+```
+### 8. RBAC Operations
+
+**Role and RoleBinding**
+```
+# Create Role
+kubectl create role <name> --verb=get,list,watch --resource=pods
+
+# Create RoleBinding
+kubectl create rolebinding <name> --role=<role-name> --user=<user>
+
+# List Roles/RoleBindings
+kubectl get roles
+kubectl get rolebindings
+
+# Delete Role/RoleBinding
+kubectl delete role <name>
+kubectl delete rolebinding <name>
+```
+**ClusterRole and ClusterRoleBinding**
+``
+# Create ClusterRole
+kubectl create clusterrole <name> --verb=get,list,watch --resource=pods
+
+# Create ClusterRoleBinding
+kubectl create clusterrolebinding <name> --clusterrole=<role-name> --user=<user>
+
+# List ClusterRoles/ClusterRoleBindings
+kubectl get clusterroles
+kubectl get clusterrolebindings
+
+# Delete ClusterRole/ClusterRoleBinding
+kubectl delete clusterrole <name>
+kubectl delete clusterrolebinding <name>
+```
 
 
 
