@@ -138,7 +138,7 @@ kubectl rollout pause deployment/<name>
 kubectl rollout resume deployment/<name>
 ```
 
-### 5. Service Operations
+## 5. Service Operations
 
 ```
 # List services
@@ -175,6 +175,20 @@ kubectl delete configmap <name>
 # Edit ConfigMap
 kubectl edit configmap <name>
 ```
+**Secrets**
+```
+# Create Secret
+kubectl create secret generic <name> --from-literal=key=value
+kubectl create secret tls <name> --cert=path/to/cert --key=path/to/key
+kubectl create secret docker-registry <name> --docker-username=user --docker-password=pass
+
+# List Secrets
+kubectl get secrets
+
+# Delete Secret
+kubectl delete secret <name>
+```
+## 7. Storage Operations
 
 
 
