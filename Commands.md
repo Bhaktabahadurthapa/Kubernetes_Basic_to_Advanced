@@ -343,7 +343,8 @@ kubectl create -f limitrange.yaml
 
 ## Common Flags
 
-**-n, --namespace: Specify namespace
+```
+-n, --namespace: Specify namespace
 -o, --output: Output format (json|yaml|wide|name)
 -l, --selector: Label selector
 -f, --filename: Filename, directory, or URL
@@ -351,8 +352,8 @@ kubectl create -f limitrange.yaml
 --grace-period: Grace period (in seconds)
 --all: Select all resources
 --field-selector: Field selector
---show-labels: Show labels in output**
-
+--show-labels: Show labels in output
+```
 
 
 
