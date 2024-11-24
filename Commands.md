@@ -367,5 +367,3 @@ kubectl create -f limitrange.yaml
 
 
 
-
-
