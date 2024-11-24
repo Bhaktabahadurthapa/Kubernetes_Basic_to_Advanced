@@ -63,7 +63,7 @@ kubectl describe namespace <name>
 kubectl config set-context --current --namespace=<name>
 ```
 
-**3. Pod Operations**
+## 3. Pod Operations
 
 **Basic Pod Commands**
 
