@@ -238,7 +238,7 @@ kubectl delete role <name>
 kubectl delete rolebinding <name>
 ```
 **ClusterRole and ClusterRoleBinding**
-``
+```
 # Create ClusterRole
 kubectl create clusterrole <name> --verb=get,list,watch --resource=pods
 
