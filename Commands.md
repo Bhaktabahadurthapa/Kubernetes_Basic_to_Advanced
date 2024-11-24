@@ -253,13 +253,105 @@ kubectl get clusterrolebindings
 kubectl delete clusterrole <name>
 kubectl delete clusterrolebinding <name>
 ```
+## 9. Network Operations
 
+**Ingress**
 
+```
+# List Ingress
+kubectl get ingress
+kubectl get ing  # Short form
 
+# Create Ingress
+kubectl create -f ingress.yaml
 
+# Delete Ingress
+kubectl delete ingress <name>
 
+# Describe Ingress
+kubectl describe ingress <name>
+```
+**Network Policies**
+```
+# List Network Policies
+kubectl get networkpolicies
+kubectl get netpol  # Short form
 
+# Create Network Policy
+kubectl create -f networkpolicy.yaml
 
+# Delete Network Policy
+kubectl delete networkpolicy <name>
+```
+## 10. Debugging and Troubleshooting
+**Debugging Commands**
+```
+# Get cluster events
+kubectl get events
+
+# Node troubleshooting
+kubectl describe node <node-name>
+kubectl top node
+
+# Pod troubleshooting
+kubectl describe pod <pod-name>
+kubectl logs <pod-name>
+kubectl exec -it <pod-name> -- /bin/bash
+
+# Service troubleshooting
+kubectl describe service <service-name>
+kubectl get endpoints <service-name>
+
+# Port forwarding
+kubectl port-forward pod/<pod-name> <local-port>:<pod-port>
+kubectl port-forward service/<service-name> <local-port>:<service-port>
+```
+## 11. Context and Configuration
+**Context Management**
+```
+# List contexts
+kubectl config get-contexts
+
+# Switch context
+kubectl config use-context <context-name>
+
+# Set cluster
+kubectl config set-cluster <cluster-name> --server=<server-url>
+
+# Set credentials
+kubectl config set-credentials <user-name> --token=<token>
+
+# View config
+kubectl config view
+kubectl config view --minify  # Current context only
+```
+## 12. Resource Quotas and Limits
+**Resource Management**
+```
+# List Resource Quotas
+kubectl get resourcequotas
+
+# Create Resource Quota
+kubectl create quota <name> --hard=cpu=1,memory=1G,pods=2
+
+# List Limit Ranges
+kubectl get limitranges
+
+# Create Limit Range
+kubectl create -f limitrange.yaml
+```
+
+## Common Flags
+
+**-n, --namespace: Specify namespace
+-o, --output: Output format (json|yaml|wide|name)
+-l, --selector: Label selector
+-f, --filename: Filename, directory, or URL
+--force: Force operation
+--grace-period: Grace period (in seconds)
+--all: Select all resources
+--field-selector: Field selector
+--show-labels: Show labels in output**
 
 
 
