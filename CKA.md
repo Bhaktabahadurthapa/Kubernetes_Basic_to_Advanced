@@ -1,4 +1,4 @@
-# rbac-declarative
+# RBAC-declarative way:
 
 ### Question - Role & binding
 
@@ -57,7 +57,9 @@ roleRef:
   name: k8s-seminar
   apiGroup: rbac.authorization.k8s.io
 ```
-# rbac-imperative
+
+
+# RBAC-imperative Way:
 ### Question - Role & binding
 
 Create a service account name seminar-sa on the namespace seminar
