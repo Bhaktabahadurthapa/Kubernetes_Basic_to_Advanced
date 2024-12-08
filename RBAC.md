@@ -72,6 +72,11 @@ kubectl get rolebinding
 ```
 kubectl auth can-i get pod --as jack
 ```
+# How to create a POD user name :Jack , after given access to the jack user for creating pod.
+```
+kubectl create -f pod.yaml --as jack
+```
+
 
 ## Cluster Role
 The clusterrole.yaml file contains the configuration for creating a cluster role named secret-reader. This cluster role allows the user to perform actions like get, watch, and list on secrets resources.
