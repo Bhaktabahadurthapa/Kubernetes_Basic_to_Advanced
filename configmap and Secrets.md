@@ -1,6 +1,5 @@
-
-
 # Configmap
+
 ### by using volume 
 ```
  apiVersion: v1
@@ -45,6 +44,7 @@ name: MYENV         # env name in which value of the key is stored
           key: sample.conf
 
 ```
+
 # Secrets Map
 ```
 apiVersion: v1
