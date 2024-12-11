@@ -22,8 +22,6 @@ name: testconfigmap
 key: sample.conf
          path: sample.conf
 ```
-```
-
 
 **By Using Env variable**
 ```
@@ -44,8 +42,7 @@ name: MYENV         # env name in which value of the key is stored
           key: sample.conf
 
 ```
-
-# Secrets Map
+# create a Secrets Map
 ```
 apiVersion: v1
 kind: Pod
