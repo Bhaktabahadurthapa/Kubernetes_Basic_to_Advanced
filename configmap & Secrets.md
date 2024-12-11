@@ -11,7 +11,7 @@ spec:
   containers:
 name: c1
     image: centos
-    command: ["/bin/bash", "-c", "while true; do echo Technical-Guftgu; sleep 5 ; done"]
+    command: ["/bin/bash", "-c", "while true; via mount file volume; sleep 5 ; done"]
     volumeMounts:
 name: testconfigmap
         mountPath: "/tmp/config"   # the config files will be mounted as ReadOnly by default here
@@ -23,6 +23,8 @@ name: testconfigmap
 key: sample.conf
          path: sample.conf
 ```
+```
+
 
 **By Using Env variable**
 ```
@@ -34,7 +36,7 @@ spec:
   containers:
 name: c1
     image: centos
-    command: ["/bin/bash", "-c", "while true; do echo Technical-Guftgu; sleep 5 ; done"]
+    command: ["/bin/bash", "-c", "while true; by env ; sleep 5 ; done"]
     env:
 name: MYENV         # env name in which value of the key is stored
       valueFrom:
@@ -53,7 +55,7 @@ spec:
   containers:
 name: c1
     image: centos
-    command: ["/bin/bash", "-c", "while true; do echo Technical-guftgu; sleep 5 ; done"]
+    command: ["/bin/bash", "-c", "while true; create a secret; sleep 5 ; done"]
     volumeMounts:
 name: testsecret
         mountPath: "/tmp/mysecrets"   # the secret files will be mounted as ReadOnly by default here
