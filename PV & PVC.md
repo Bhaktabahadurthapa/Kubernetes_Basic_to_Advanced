@@ -5,13 +5,20 @@
 
 
 
-**Figure Shows: PV Lifecycle States
-**<img width="368" alt="image" src="https://github.com/user-attachments/assets/b69fba43-e200-4e76-881f-c5d9fb364ad6" />
+Figure Shows: PV Lifecycle States
+
+
+<img width="368" alt="image" src="https://github.com/user-attachments/assets/b69fba43-e200-4e76-881f-c5d9fb364ad6" />
 
 
 
 **Figure: Namespace Level Storage
-**<img width="474" alt="image" src="https://github.com/user-attachments/assets/46b6809b-10de-41fe-a977-37a0ede2ea86" />
+
+
+
+<img width="474" alt="image" src="https://github.com/user-attachments/assets/46b6809b-10de-41fe-a977-37a0ede2ea86" />
+
+
 
 Basic Flow:
 
