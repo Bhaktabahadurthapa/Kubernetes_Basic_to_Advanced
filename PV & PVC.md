@@ -1,13 +1,17 @@
 # Persistent Volume (PV) and Persistent Volume Claim (PVC)
 
-Figure: Basic PV and PVC Workflow in Kubernetes
-<img width="781" alt="image" src="https://github.com/user-attachments/assets/0b0b4a32-1b7f-4aca-a2d6-6122a97058e0" />
+**Figure: Basic PV and PVC Workflow in Kubernetes
+**<img width="781" alt="image" src="https://github.com/user-attachments/assets/0b0b4a32-1b7f-4aca-a2d6-6122a97058e0" />
 
-Figure Shows: PV Lifecycle States
-<img width="368" alt="image" src="https://github.com/user-attachments/assets/b69fba43-e200-4e76-881f-c5d9fb364ad6" />
 
-Figure: Namespace Level Storage
-<img width="474" alt="image" src="https://github.com/user-attachments/assets/46b6809b-10de-41fe-a977-37a0ede2ea86" />
+
+**Figure Shows: PV Lifecycle States
+**<img width="368" alt="image" src="https://github.com/user-attachments/assets/b69fba43-e200-4e76-881f-c5d9fb364ad6" />
+
+
+
+**Figure: Namespace Level Storage
+**<img width="474" alt="image" src="https://github.com/user-attachments/assets/46b6809b-10de-41fe-a977-37a0ede2ea86" />
 
 Basic Flow:
 
