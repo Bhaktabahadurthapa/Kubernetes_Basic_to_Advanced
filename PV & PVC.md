@@ -21,7 +21,7 @@ Figure: Namespace Level Storage
 
 
 
-
+```
 Basic Flow:
 
 Physical storage is abstracted as PV
@@ -41,7 +41,8 @@ Namespace Level:
 PVs exist at cluster level
 PVCs are namespace specific
 Different namespaces can use different PVs
-
+```
+      
 # Create a Persistent Volume (PV)
 First, create a YAML file named pv.yaml
 ```
