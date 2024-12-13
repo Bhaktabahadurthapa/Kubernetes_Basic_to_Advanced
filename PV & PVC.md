@@ -1,5 +1,34 @@
 # Persistent Volume (PV) and Persistent Volume Claim (PVC)
 
+Figure: Basic PV and PVC Workflow in Kubernetes
+<img width="781" alt="image" src="https://github.com/user-attachments/assets/0b0b4a32-1b7f-4aca-a2d6-6122a97058e0" />
+
+Figure Shows: PV Lifecycle States
+<img width="368" alt="image" src="https://github.com/user-attachments/assets/b69fba43-e200-4e76-881f-c5d9fb364ad6" />
+
+Figure: Namespace Level Storage
+<img width="474" alt="image" src="https://github.com/user-attachments/assets/46b6809b-10de-41fe-a977-37a0ede2ea86" />
+
+Basic Flow:
+
+Physical storage is abstracted as PV
+PVC claims the storage
+Pod uses the PVC
+
+
+Lifecycle:
+
+Available: PV is free to use
+Bound: PV is claimed by a PVC
+Released: PVC is deleted but PV not yet reclaimed
+
+
+Namespace Level:
+
+PVs exist at cluster level
+PVCs are namespace specific
+Different namespaces can use different PVs
+
 Create a Persistent Volume (PV)
 First, create a YAML file named pv.yaml
 ```
