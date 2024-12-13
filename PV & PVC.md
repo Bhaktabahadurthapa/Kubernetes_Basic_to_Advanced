@@ -76,12 +76,12 @@ kind: PersistentVolumeClaim
 metadata:
   name: task-pvc
 spec:
-  storageClassName: manual
+  storageClassName: standard
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 1Gi
+      storage: 2Gi
 ```
 
 Apply the PVC and Verify PVC
@@ -89,6 +89,18 @@ Apply the PVC and Verify PVC
 kubectl apply -f pvc.yaml
 kubectl get pvc
 kubectl describe pvc task-pvc
+```
+# Note that, in GKE (Google Kubernetes Engine), we can't use hostPath directly as the node's filesystem is read-only. Let's fix this by using GCP's persistent disk instead.
+Create a StorageClass (storage-class.yaml):
+```
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: standard
+provisioner: kubernetes.io/gce-pd
+parameters:
+  type: pd-standard
+  replication-type: none
 ```
 
 # Create a Pod using the PVC
