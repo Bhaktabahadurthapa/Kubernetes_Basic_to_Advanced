@@ -42,7 +42,7 @@ PVs exist at cluster level
 PVCs are namespace specific
 Different namespaces can use different PVs
 
-**Create a Persistent Volume (PV)**
+# Create a Persistent Volume (PV)
 First, create a YAML file named pv.yaml
 ```
 apiVersion: v1
@@ -67,7 +67,7 @@ kubectl get pv
 kubectl describe pv task-pv
 ```
 
-**Create a Persistent Volume Claim (PVC)**
+# Create a Persistent Volume Claim (PVC)
 Create a file named pvc.yaml:
 ```
 apiVersion: v1
@@ -90,7 +90,7 @@ kubectl get pvc
 kubectl describe pvc task-pvc
 ```
 
-**Create a Pod using the PVC**
+# Create a Pod using the PVC
 Create a file named pod.yaml:
 ```
 apiVersion: v1
