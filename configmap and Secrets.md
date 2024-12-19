@@ -42,7 +42,7 @@ name: MYENV         # env name in which value of the key is stored
           key: sample.conf
 
 ```
-# create a Secrets Map
+# Create a Secrets Map
 ```
 apiVersion: v1
 kind: Pod
